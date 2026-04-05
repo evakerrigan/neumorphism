@@ -28,6 +28,6 @@ export const routeConfig: Record<AppRoutes, RouteProps> = {
   },
   [AppRoutes.NOT_FOUND_NAV]: {
     path: RoutePath['not-found-nav'],
-    element: <Navigate to="not-found" replace />,
+    element: <Navigate to={RoutePath['not-found']} replace />,
   },
 };
